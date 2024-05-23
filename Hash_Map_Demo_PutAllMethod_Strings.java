@@ -1,9 +1,7 @@
-
-
-// Java code to illustrate the get() method 
+// Java code to illustrate the putAll() method 
 import java.util.*;
 
-public class Hash_Map_Demo_Strings {
+public class Hash_Map_Demo_PutAllMethod_Strings {
     public static void main(String[] args)
     {
 
@@ -20,10 +18,11 @@ public class Hash_Map_Demo_Strings {
         // Displaying the HashMap 
         System.out.println("Initial Mappings are: " + hash_map);
 
-        // Getting the value of "Geeks" 
-        System.out.println("The Value is: " + hash_map.get("Geeks"));
+        // Creating a new hash map and copying 
+        HashMap<String, Integer> new_hash_map = new HashMap<String, Integer>();
+        new_hash_map.putAll(hash_map);
 
-        // Getting the value of "You" 
-        System.out.println("The Value is: " + hash_map.get("You"));
+        // Displaying the final HashMap 
+        System.out.println("The new map looks like this: " + new_hash_map);
     }
 } 

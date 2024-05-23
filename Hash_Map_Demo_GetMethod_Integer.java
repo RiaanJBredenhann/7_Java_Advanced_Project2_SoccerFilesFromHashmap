@@ -1,7 +1,7 @@
 // Java code to illustrate the get() method 
 import java.util.*;
 
-public class Hash_Map_Demo {
+public class Hash_Map_Demo_GetMethod_Integer {
     public static void main(String[] args)
     {
 
